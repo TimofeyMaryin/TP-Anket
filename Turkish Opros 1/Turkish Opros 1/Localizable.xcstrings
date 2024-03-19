@@ -1,0 +1,129 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "Anket: Görüş ve tercih anketi" : {
+
+    },
+    "Ankete katılın ve bir iş kurmak için ne kadar hazır olduğunuzu öğrenin. " : {
+
+    },
+    "Ankete katılın ve finansal okuryazarlık seviyenizi öğrenin" : {
+
+    },
+    "app_name" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "TP Anket"
+          }
+        }
+      }
+    },
+    "Bir sonraki anketiniz için bir konu seçin!" : {
+
+    },
+    "Bziness" : {
+
+    },
+    "Choose Theme" : {
+
+    },
+    "compleate_test_btn_test" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Пройти Тестирование"
+          }
+        }
+      }
+    },
+    "confirm_exit" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Вы точно хотите Уйти?"
+          }
+        }
+      }
+    },
+    "Değerlendirme için teşekkürler!" : {
+
+    },
+    "Düğmeye basmak sizi otomatik olarak ana ekrana götürecektir. " : {
+
+    },
+    "Evet" : {
+
+    },
+    "exit_from_app_btn_text" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Выйти"
+          }
+        }
+      }
+    },
+    "Finans" : {
+
+    },
+    "Hayır" : {
+
+    },
+    "İş Dünyası" : {
+
+    },
+    "Katılın ve geleceği etkileyin! Araştırmamız için bazı önemli soruları yanıtlayın." : {
+
+    },
+    "OK" : {
+
+    },
+    "Sonuçlandırın" : {
+
+    },
+    "Sonucunuz: %lld%%" : {
+
+    },
+    "Start" : {
+
+    },
+    "Tebrikler!!!" : {
+
+    },
+    "Testten keyif aldınız mı?" : {
+
+    },
+    "text_no" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Нет"
+          }
+        }
+      }
+    },
+    "text_yes" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Да"
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}

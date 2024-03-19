@@ -1,0 +1,653 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04AE0C502BA047B90001523C /* Turkish_Opros_1App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AE0C4F2BA047B90001523C /* Turkish_Opros_1App.swift */; };
+		04AE0C522BA047B90001523C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AE0C512BA047B90001523C /* ContentView.swift */; };
+		04AE0C542BA047BB0001523C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04AE0C532BA047BB0001523C /* Assets.xcassets */; };
+		04AE0C572BA047BB0001523C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04AE0C562BA047BB0001523C /* Preview Assets.xcassets */; };
+		04AE0C622BA0496C0001523C /* Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AE0C612BA0496C0001523C /* Button.swift */; };
+		04AE0C662BA04F650001523C /* NavigationScreenDestination.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AE0C652BA04F650001523C /* NavigationScreenDestination.swift */; };
+		04AE0C6A2BA057A30001523C /* MainFragment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AE0C692BA057A30001523C /* MainFragment.swift */; };
+		04AE0C6C2BA059510001523C /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AE0C6B2BA059510001523C /* Color.swift */; };
+		04AE0C6E2BA067F60001523C /* FragmentContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AE0C6D2BA067F60001523C /* FragmentContainer.swift */; };
+		04AE0C702BA06A1A0001523C /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 04AE0C6F2BA06A190001523C /* Localizable.xcstrings */; };
+		04FBE29C2BA88EBC00FA61CC /* ChooseThemeFragment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FBE29B2BA88EBC00FA61CC /* ChooseThemeFragment.swift */; };
+		04FBE29E2BA891FC00FA61CC /* FinanceQuizFragment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FBE29D2BA891FC00FA61CC /* FinanceQuizFragment.swift */; };
+		04FBE2A02BA8922200FA61CC /* BuisnessQuizFragment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FBE29F2BA8922200FA61CC /* BuisnessQuizFragment.swift */; };
+		04FBE2A22BA8951800FA61CC /* QuizModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FBE2A12BA8951800FA61CC /* QuizModel.swift */; };
+		04FBE2A42BA8B0AA00FA61CC /* FinishFragment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FBE2A32BA8B0A900FA61CC /* FinishFragment.swift */; };
+		04FBE2A72BA8C45600FA61CC /* AppsFlyerLib in Frameworks */ = {isa = PBXBuildFile; productRef = 04FBE2A62BA8C45600FA61CC /* AppsFlyerLib */; };
+		04FBE2AF2BA98E9400FA61CC /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FBE2AE2BA98E9400FA61CC /* NotificationService.swift */; };
+		04FBE2B32BA98E9400FA61CC /* OneSignalNotificationServiceExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 04FBE2AC2BA98E9400FA61CC /* OneSignalNotificationServiceExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		04FBE2BB2BA98F9E00FA61CC /* OneSignalExtension in Frameworks */ = {isa = PBXBuildFile; productRef = 04FBE2BA2BA98F9E00FA61CC /* OneSignalExtension */; };
+		04FBE2BD2BA98F9E00FA61CC /* OneSignalFramework in Frameworks */ = {isa = PBXBuildFile; productRef = 04FBE2BC2BA98F9E00FA61CC /* OneSignalFramework */; };
+		04FBE2BF2BA98F9E00FA61CC /* OneSignalInAppMessages in Frameworks */ = {isa = PBXBuildFile; productRef = 04FBE2BE2BA98F9E00FA61CC /* OneSignalInAppMessages */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		04FBE2B12BA98E9400FA61CC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04AE0C442BA047B90001523C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04FBE2AB2BA98E9400FA61CC;
+			remoteInfo = OneSignalNotificationServiceExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		04FBE2B72BA98E9400FA61CC /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				04FBE2B32BA98E9400FA61CC /* OneSignalNotificationServiceExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		04AE0C4C2BA047B90001523C /* Turkish Opros 1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Turkish Opros 1.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		04AE0C4F2BA047B90001523C /* Turkish_Opros_1App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Turkish_Opros_1App.swift; sourceTree = "<group>"; };
+		04AE0C512BA047B90001523C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		04AE0C532BA047BB0001523C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04AE0C562BA047BB0001523C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		04AE0C612BA0496C0001523C /* Button.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Button.swift; sourceTree = "<group>"; };
+		04AE0C652BA04F650001523C /* NavigationScreenDestination.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationScreenDestination.swift; sourceTree = "<group>"; };
+		04AE0C692BA057A30001523C /* MainFragment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainFragment.swift; sourceTree = "<group>"; };
+		04AE0C6B2BA059510001523C /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		04AE0C6D2BA067F60001523C /* FragmentContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FragmentContainer.swift; sourceTree = "<group>"; };
+		04AE0C6F2BA06A190001523C /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
+		04FBE29B2BA88EBC00FA61CC /* ChooseThemeFragment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseThemeFragment.swift; sourceTree = "<group>"; };
+		04FBE29D2BA891FC00FA61CC /* FinanceQuizFragment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinanceQuizFragment.swift; sourceTree = "<group>"; };
+		04FBE29F2BA8922200FA61CC /* BuisnessQuizFragment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuisnessQuizFragment.swift; sourceTree = "<group>"; };
+		04FBE2A12BA8951800FA61CC /* QuizModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizModel.swift; sourceTree = "<group>"; };
+		04FBE2A32BA8B0A900FA61CC /* FinishFragment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinishFragment.swift; sourceTree = "<group>"; };
+		04FBE2AC2BA98E9400FA61CC /* OneSignalNotificationServiceExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = OneSignalNotificationServiceExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		04FBE2AE2BA98E9400FA61CC /* NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
+		04FBE2B02BA98E9400FA61CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04FBE2B82BA98EC100FA61CC /* Turkish Opros 1.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Turkish Opros 1.entitlements"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04AE0C492BA047B90001523C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04FBE2BF2BA98F9E00FA61CC /* OneSignalInAppMessages in Frameworks */,
+				04FBE2BD2BA98F9E00FA61CC /* OneSignalFramework in Frameworks */,
+				04FBE2A72BA8C45600FA61CC /* AppsFlyerLib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04FBE2A92BA98E9400FA61CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04FBE2BB2BA98F9E00FA61CC /* OneSignalExtension in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04AE0C432BA047B90001523C = {
+			isa = PBXGroup;
+			children = (
+				04AE0C4E2BA047B90001523C /* Turkish Opros 1 */,
+				04FBE2AD2BA98E9400FA61CC /* OneSignalNotificationServiceExtension */,
+				04AE0C4D2BA047B90001523C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		04AE0C4D2BA047B90001523C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04AE0C4C2BA047B90001523C /* Turkish Opros 1.app */,
+				04FBE2AC2BA98E9400FA61CC /* OneSignalNotificationServiceExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04AE0C4E2BA047B90001523C /* Turkish Opros 1 */ = {
+			isa = PBXGroup;
+			children = (
+				04FBE2B82BA98EC100FA61CC /* Turkish Opros 1.entitlements */,
+				04AE0C602BA0495E0001523C /* Utils */,
+				04AE0C5D2BA048190001523C /* Fragment */,
+				04AE0C4F2BA047B90001523C /* Turkish_Opros_1App.swift */,
+				04AE0C512BA047B90001523C /* ContentView.swift */,
+				04AE0C532BA047BB0001523C /* Assets.xcassets */,
+				04AE0C552BA047BB0001523C /* Preview Content */,
+				04AE0C6F2BA06A190001523C /* Localizable.xcstrings */,
+			);
+			path = "Turkish Opros 1";
+			sourceTree = "<group>";
+		};
+		04AE0C552BA047BB0001523C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				04AE0C562BA047BB0001523C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		04AE0C5D2BA048190001523C /* Fragment */ = {
+			isa = PBXGroup;
+			children = (
+				04FBE29A2BA88EA100FA61CC /* release_fr */,
+			);
+			path = Fragment;
+			sourceTree = "<group>";
+		};
+		04AE0C602BA0495E0001523C /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				04AE0C612BA0496C0001523C /* Button.swift */,
+				04AE0C652BA04F650001523C /* NavigationScreenDestination.swift */,
+				04AE0C6B2BA059510001523C /* Color.swift */,
+				04AE0C6D2BA067F60001523C /* FragmentContainer.swift */,
+				04FBE2A12BA8951800FA61CC /* QuizModel.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		04FBE29A2BA88EA100FA61CC /* release_fr */ = {
+			isa = PBXGroup;
+			children = (
+				04AE0C692BA057A30001523C /* MainFragment.swift */,
+				04FBE29B2BA88EBC00FA61CC /* ChooseThemeFragment.swift */,
+				04FBE29D2BA891FC00FA61CC /* FinanceQuizFragment.swift */,
+				04FBE29F2BA8922200FA61CC /* BuisnessQuizFragment.swift */,
+				04FBE2A32BA8B0A900FA61CC /* FinishFragment.swift */,
+			);
+			path = release_fr;
+			sourceTree = "<group>";
+		};
+		04FBE2AD2BA98E9400FA61CC /* OneSignalNotificationServiceExtension */ = {
+			isa = PBXGroup;
+			children = (
+				04FBE2AE2BA98E9400FA61CC /* NotificationService.swift */,
+				04FBE2B02BA98E9400FA61CC /* Info.plist */,
+			);
+			path = OneSignalNotificationServiceExtension;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04AE0C4B2BA047B90001523C /* Turkish Opros 1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04AE0C5A2BA047BB0001523C /* Build configuration list for PBXNativeTarget "Turkish Opros 1" */;
+			buildPhases = (
+				04AE0C482BA047B90001523C /* Sources */,
+				04AE0C492BA047B90001523C /* Frameworks */,
+				04AE0C4A2BA047B90001523C /* Resources */,
+				04FBE2B72BA98E9400FA61CC /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04FBE2B22BA98E9400FA61CC /* PBXTargetDependency */,
+			);
+			name = "Turkish Opros 1";
+			packageProductDependencies = (
+				04FBE2A62BA8C45600FA61CC /* AppsFlyerLib */,
+				04FBE2BC2BA98F9E00FA61CC /* OneSignalFramework */,
+				04FBE2BE2BA98F9E00FA61CC /* OneSignalInAppMessages */,
+			);
+			productName = "Turkish Opros 1";
+			productReference = 04AE0C4C2BA047B90001523C /* Turkish Opros 1.app */;
+			productType = "com.apple.product-type.application";
+		};
+		04FBE2AB2BA98E9400FA61CC /* OneSignalNotificationServiceExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04FBE2B42BA98E9400FA61CC /* Build configuration list for PBXNativeTarget "OneSignalNotificationServiceExtension" */;
+			buildPhases = (
+				04FBE2A82BA98E9400FA61CC /* Sources */,
+				04FBE2A92BA98E9400FA61CC /* Frameworks */,
+				04FBE2AA2BA98E9400FA61CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OneSignalNotificationServiceExtension;
+			packageProductDependencies = (
+				04FBE2BA2BA98F9E00FA61CC /* OneSignalExtension */,
+			);
+			productName = OneSignalNotificationServiceExtension;
+			productReference = 04FBE2AC2BA98E9400FA61CC /* OneSignalNotificationServiceExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04AE0C442BA047B90001523C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					04AE0C4B2BA047B90001523C = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					04FBE2AB2BA98E9400FA61CC = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 04AE0C472BA047B90001523C /* Build configuration list for PBXProject "Turkish Opros 1" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04AE0C432BA047B90001523C;
+			packageReferences = (
+				04FBE2A52BA8C45600FA61CC /* XCRemoteSwiftPackageReference "AppsFlyerFramework" */,
+				04FBE2B92BA98F9E00FA61CC /* XCRemoteSwiftPackageReference "OneSignal-XCFramework" */,
+			);
+			productRefGroup = 04AE0C4D2BA047B90001523C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04AE0C4B2BA047B90001523C /* Turkish Opros 1 */,
+				04FBE2AB2BA98E9400FA61CC /* OneSignalNotificationServiceExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04AE0C4A2BA047B90001523C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04AE0C572BA047BB0001523C /* Preview Assets.xcassets in Resources */,
+				04AE0C542BA047BB0001523C /* Assets.xcassets in Resources */,
+				04AE0C702BA06A1A0001523C /* Localizable.xcstrings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04FBE2AA2BA98E9400FA61CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04AE0C482BA047B90001523C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04AE0C522BA047B90001523C /* ContentView.swift in Sources */,
+				04AE0C6E2BA067F60001523C /* FragmentContainer.swift in Sources */,
+				04AE0C502BA047B90001523C /* Turkish_Opros_1App.swift in Sources */,
+				04FBE2A22BA8951800FA61CC /* QuizModel.swift in Sources */,
+				04AE0C662BA04F650001523C /* NavigationScreenDestination.swift in Sources */,
+				04FBE29C2BA88EBC00FA61CC /* ChooseThemeFragment.swift in Sources */,
+				04AE0C622BA0496C0001523C /* Button.swift in Sources */,
+				04FBE29E2BA891FC00FA61CC /* FinanceQuizFragment.swift in Sources */,
+				04AE0C6A2BA057A30001523C /* MainFragment.swift in Sources */,
+				04FBE2A42BA8B0AA00FA61CC /* FinishFragment.swift in Sources */,
+				04FBE2A02BA8922200FA61CC /* BuisnessQuizFragment.swift in Sources */,
+				04AE0C6C2BA059510001523C /* Color.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04FBE2A82BA98E9400FA61CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04FBE2AF2BA98E9400FA61CC /* NotificationService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		04FBE2B22BA98E9400FA61CC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04FBE2AB2BA98E9400FA61CC /* OneSignalNotificationServiceExtension */;
+			targetProxy = 04FBE2B12BA98E9400FA61CC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		04AE0C582BA047BB0001523C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		04AE0C592BA047BB0001523C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04AE0C5B2BA047BB0001523C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Turkish Opros 1/Turkish Opros 1.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Turkish Opros 1/Preview Content\"";
+				DEVELOPMENT_TEAM = S58AC87U9Z;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "TP Anket";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleDarkContent;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "tr.ios-project.tp-anket.enterprize";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		04AE0C5C2BA047BB0001523C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Turkish Opros 1/Turkish Opros 1.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Turkish Opros 1/Preview Content\"";
+				DEVELOPMENT_TEAM = S58AC87U9Z;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "TP Anket";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleDarkContent;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "tr.ios-project.tp-anket.enterprize";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		04FBE2B52BA98E9400FA61CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S58AC87U9Z;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = OneSignalNotificationServiceExtension/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = OneSignalNotificationServiceExtension;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "tr.ios-project.tp-anket.enterprize.onesignal";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		04FBE2B62BA98E9400FA61CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S58AC87U9Z;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = OneSignalNotificationServiceExtension/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = OneSignalNotificationServiceExtension;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "tr.ios-project.tp-anket.enterprize.onesignal";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04AE0C472BA047B90001523C /* Build configuration list for PBXProject "Turkish Opros 1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04AE0C582BA047BB0001523C /* Debug */,
+				04AE0C592BA047BB0001523C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04AE0C5A2BA047BB0001523C /* Build configuration list for PBXNativeTarget "Turkish Opros 1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04AE0C5B2BA047BB0001523C /* Debug */,
+				04AE0C5C2BA047BB0001523C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04FBE2B42BA98E9400FA61CC /* Build configuration list for PBXNativeTarget "OneSignalNotificationServiceExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04FBE2B52BA98E9400FA61CC /* Debug */,
+				04FBE2B62BA98E9400FA61CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		04FBE2A52BA8C45600FA61CC /* XCRemoteSwiftPackageReference "AppsFlyerFramework" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/AppsFlyerSDK/AppsFlyerFramework";
+			requirement = {
+				kind = upToNextMinorVersion;
+				minimumVersion = 6.13.1;
+			};
+		};
+		04FBE2B92BA98F9E00FA61CC /* XCRemoteSwiftPackageReference "OneSignal-XCFramework" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/OneSignal/OneSignal-XCFramework";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.1.3;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		04FBE2A62BA8C45600FA61CC /* AppsFlyerLib */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 04FBE2A52BA8C45600FA61CC /* XCRemoteSwiftPackageReference "AppsFlyerFramework" */;
+			productName = AppsFlyerLib;
+		};
+		04FBE2BA2BA98F9E00FA61CC /* OneSignalExtension */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 04FBE2B92BA98F9E00FA61CC /* XCRemoteSwiftPackageReference "OneSignal-XCFramework" */;
+			productName = OneSignalExtension;
+		};
+		04FBE2BC2BA98F9E00FA61CC /* OneSignalFramework */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 04FBE2B92BA98F9E00FA61CC /* XCRemoteSwiftPackageReference "OneSignal-XCFramework" */;
+			productName = OneSignalFramework;
+		};
+		04FBE2BE2BA98F9E00FA61CC /* OneSignalInAppMessages */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 04FBE2B92BA98F9E00FA61CC /* XCRemoteSwiftPackageReference "OneSignal-XCFramework" */;
+			productName = OneSignalInAppMessages;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 04AE0C442BA047B90001523C /* Project object */;
+}
